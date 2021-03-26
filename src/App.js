@@ -8,7 +8,7 @@ import Parent from './components/Parent';
 import CounterContext from './Global/CounterContext';
 
 export default function App() {
-  let Count = useState('Muhammad ')
+  let Count = useState(' Muhammad ')
   return (
     <CounterContext.Provider value={Count}>
       <Parent />
