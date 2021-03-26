@@ -7,7 +7,7 @@ const Child = () =>{
     
     return(
         <div>
-            <h1>This is Context API </h1>
+            <h1>This is Context API</h1>
             <h2>This Change by { counterValue[0] }</h2>
             <button onClick={()=>{
                 console.log('button Click');
